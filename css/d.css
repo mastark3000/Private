@@ -298,16 +298,12 @@ form a{
 	text-align: center;
 }
 
-/*#space,#content,#footer{
-	display: block;
-	width: 95vw;
-	margin: 2em 0em;
-}*/
+
 #footer{
     bottom: 0;
- 	background-color: black;
+    background-color: black;
     color: white;
-	margin-top:2em;
+    margin-top:2em;
     height: 20%;
     padding: 3%;
     width: 89vw;
