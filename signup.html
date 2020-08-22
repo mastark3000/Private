@@ -40,7 +40,7 @@
 		}
 		#form table{
 			margin: 0%;
-			padding: 1%;
+			padding: 0%;
 			width: 100%;
 			border-collapse: collapse;
 		}
@@ -61,6 +61,7 @@
 			outline: none;
 			border-radius: 10px 20px;
 			width: inherit;
+			width: 80%;
 			height: 2em;
 			padding: 2%;
 			font-size: 16px;
@@ -86,16 +87,18 @@
 		    border-radius: 10px 20px;
 		}
 		#form td#but{
-			text-align:center;
+			text-align: center;
 		}
+		
 		#form button{
 			margin: 0 auto;
 			width: 100%;
-			border-radius: 0px 0px 10px 10px;
+			border-radius: 10px;
 			height: 3em;
 			padding: 2%;
-			margin-top: 3em;
+			margin-top: 1em;
 			border-collapse: collapse;
+			font-size: 16px;
 		}
 		#form form h2{
 			color: white;
@@ -135,15 +138,15 @@
 			<div id="navbar">
 				<div id="hleft">
 					<ul>
-						<li><a href="https://mastark3000.github.io/Private/">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						<li><a href="#">Filter</a></li>
 						<li><a href="#">Profile</a></li>
 					</ul>
 				</div>
 				<div id="hright">
 					<ul>
-						<li><a href="s.html">SignIn</a></li>
-						<li><a href="signup.html">SignUp</a></li>
+						<li><a href="login.php">SignIn</a></li>
+						<li><a href="sign.php">SignUp</a></li>
 					</ul>
 				</div>
 			</div>
@@ -180,7 +183,7 @@
 					<td><i class="fad fa-key"></td>
 					<td><input type="password" name="rpass" placeholder="confirm password"></td>
 				</tr>
-				<tr colspan="2"><td id="but"><button style="width:33%; background-color:white;color:blue;padding:1em;">SignUp</button</td></tr
+				<tr><td id="but" colspan="2"><button style="width:33%; background-color:white;color:blue;padding:1em;">SignUp</button><td></td></tr>
 			</table>
 			>
 		</form>
